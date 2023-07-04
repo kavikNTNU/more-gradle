@@ -21,6 +21,7 @@ sourceSets {
             srcDirs = ['../app/src/main/java']
         }
     }
+}
 
 
 repositories {

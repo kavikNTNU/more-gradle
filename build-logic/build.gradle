@@ -8,7 +8,7 @@ plugins {
     // Support convention plugins written in Groovy. Convention plugins are build scripts in 'src/main' that automatically become available as plugins in the main build.
     id 'groovy-gradle-plugin'
     id 'java'
-    id 'more.gradle.java-application-conventions' version '4.0.4' // Add the plugin ID and version here
+    // id 'more.gradle.java-application-conventions' version '4.0.4' // Add the plugin ID and version here
 }
 
 java {
@@ -25,10 +25,10 @@ sourceSets {
 }
 
 
-repositories {
-    // Use the plugin portal to apply community plugins in convention plugins.
-    gradlePluginPortal()
-}
+// repositories {
+//     // Use the plugin portal to apply community plugins in convention plugins.
+//     gradlePluginPortal()
+// }
 
 dependencies {
     // Add your project dependencies here

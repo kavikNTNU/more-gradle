@@ -9,6 +9,8 @@ plugins {
     id 'groovy-gradle-plugin'
     id 'java'
     id 'application'
+    // id 'more.gradle.java-application-conventions' version '4.0.4' // Add the plugin ID and version here
+    id("org.gradle.github-dependency-graph-gradle-plugin") version "0.0.3"
 }
 
 java {
